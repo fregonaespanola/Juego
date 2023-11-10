@@ -1,0 +1,32 @@
+
+
+.grid-cell {
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 127px;
+    font-size: 24px;
+    margin: 10px;
+    background-color: #e2e2e2;
+    transition: transform 0.3s ease-in-out;
+    background-image: url(./carta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cronometro{
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+.container{
+    background-color: #00000070;
+}
+
+body{
+    background-image: url("./fondo.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
